@@ -1,0 +1,21 @@
+@media (max-width: 820px) {
+    .video-main {
+        display: flex;
+        flex-direction: column;
+    }
+    .video-main-list h1 {
+        margin: 10px 10px 0 10px;
+        width: 100%;
+    }
+    .list-group {
+        margin: 0px 10px 10px 10px;
+        width: 100%;
+        li {
+            display: flex; 
+            flex-wrap: wrap;
+        }
+    }
+    .video-container {
+        width: 100%;
+    }
+}

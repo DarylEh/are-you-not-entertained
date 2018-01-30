@@ -1,0 +1,25 @@
+.list-group {
+    list-style: none;
+    cursor: pointer;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    margin: 0;
+}
+.video-main-list h1 {
+        text-align: center;
+        border-top: 2px solid black;
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+        margin: 10px 10px 0 0;
+        background-color: aliceblue;
+        padding: 20px;
+}
+.list-group {
+    margin: 0 10px 0 0;
+    padding: 0 20px 0 20px;
+    background-color: aliceblue;
+}
+.media-heading {
+    margin-bottom: 10px;
+}
