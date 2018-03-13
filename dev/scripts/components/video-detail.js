@@ -9,7 +9,7 @@ const VideoDetail = ({ vid }) => {
 
     return (
             <div className="video-detail">
-            <iframe className="video-container" height="315" width="560" allowfullscreen="" frameborder="0" src={url}></iframe>
+            <iframe className="video-container" height="315" width="560" allowFullScreen="" frameBorder="0" src={url}></iframe>
                 <div className="details inner-wrapper">
                     <h3>Video Title</h3>
                     <div>{vid.snippet.title}</div>
