@@ -15,7 +15,7 @@ class SearchBar extends Component {
                 <h1>Are You Not Entertained?</h1>
                     <div className="search-top">
                         <div className='search-bar'>
-                            <p>Bored?  Start Typing and We'll Grab Some YouTube Vidoes for Ya!!</p>
+                            <p>Bored?  Start Typing and We Will Grab Some YouTube Vidoes for Ya!!</p>
                             <input type="text"
                                 value={this.state.term}
                                 onChange={event => this.onInputChange(event.target.value)}/>
